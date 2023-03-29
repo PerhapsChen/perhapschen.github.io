@@ -2,7 +2,7 @@
 
 ?> `HydroVisCal` (**Hydro**logy **Vis**ualization & **Cal**culation) is a `Python` package maintained by me. 
 
-In scientific research, especially when it comes to computing and visualisation, we often need to write special code for our scientific tasks. Therefore, I have written some of the frequently used functional code in a more general form. In the future, this code will increase the efficiency of my work several times over.
+In scientific research, especially when it comes to computing and visualisation, we often need to write special code for our scientific tasks. And the parameters need to be adjusted frequently to achieve the results we expect. Therefore, I have written some of the frequently used functional code in a more general form. In the future, this code will increase the efficiency of my work several times over.
 
 # Generic Modules
 
