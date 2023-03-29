@@ -4,4 +4,8 @@
 * [Technical Blogs](TechnicalBlog/)
 * [Scientific Method](ScientificMethod/)
 * [Links](Links/)
-* [Test](guide)
+
+* [Test](Test/)
+
+    * [Test1](Test/guide.md)
+    * [Test2](Test/GBW.md)
