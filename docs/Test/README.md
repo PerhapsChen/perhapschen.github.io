@@ -5,4 +5,7 @@
 
 :100:
 
-[Exmp_AutoCbar](html/examples/Exmp_AutoCbar.html)
+# Jupyter Examples
+[AutoCbar](html/examples/EXMAPLE_AutoCbar.html)
+
+[TrendDetector](html/examples/EXAMPLE_TrendDetector.html)
