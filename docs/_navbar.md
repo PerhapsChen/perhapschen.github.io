@@ -1,4 +1,3 @@
-* [Home](README)
+<!-- * [Home](README)
 
-* [GitHub](https://github.com/PerhapsChen)
-<!-- * [Pulications](Publications/) -->
+* [GitHub](https://github.com/PerhapsChen) -->
