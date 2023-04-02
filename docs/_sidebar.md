@@ -2,7 +2,7 @@
 - [Publications](Publications/Publications.md)
 - [HydroVisCal](HydroVisCal/HydroVisCal.md)
 - [Technical Blogs](TechnicalBlogs/TechnicalBlogs.md)
-- [Scientific Method](ScientificMethod/ScientificMethod.md)
+- [Scientific Methods](ScientificMethods/ScientificMethods.md)
 - [Links](Links/Links.md)
 - [Test](#)
     * [Test Info](Test/README.md)
