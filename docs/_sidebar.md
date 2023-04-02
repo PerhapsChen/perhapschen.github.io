@@ -2,7 +2,6 @@
 - [Publications](Publications/)
 - [HydroVisCal](HydroVisCal/)
 - [Technical Blogs](TechnicalBlog/)
-    - [Export jupyter notebook file as HTML file.](TechnicalBlog/exportIpynbAsHTML)
 - [Scientific Method](ScientificMethod/)
 - [Links](Links/)
 - [Test](#)
