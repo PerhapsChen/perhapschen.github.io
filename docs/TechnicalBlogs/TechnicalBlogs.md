@@ -2,8 +2,7 @@
 
 # Export `.ipynb` as `HTML` file.
 
-## Export by command line.
-convert `.ipynb` file as `HTML` file.
+**convert `.ipynb` file as `HTML` file.**
 
 ```bash
 jupyter nbconvert --to html ./foobar.ipynb
