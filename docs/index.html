@@ -9,11 +9,18 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css"> -->
-  <link rel="stylesheet" href="cdnResources/vue.css">
-  
+
+  <!--! 主题 -->
+  <!-- <link rel="stylesheet" href="cdnResources/vue.css"> -->
+  <!-- <link rel="stylesheet" media="(prefers-color-scheme: dark)" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css"> -->
+  <!-- <link rel="stylesheet" media="(prefers-color-scheme: light)" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css"> -->
+
+  <link rel="stylesheet" media="(prefers-color-scheme: light)" href="cdnResources/theme-simple.css">
+  <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
+  <!-- <link rel="stylesheet" href="my.css"> -->
+
   <!-- ! sidebar collapse style -->
-  <link rel="stylesheet" href="cdnResources/sidebar.min.css" />
+  <!-- <link rel="stylesheet" href="cdnResources/sidebar.min.css" /> -->
 
   <!-- <link href="prism-ghcolors.css" rel="stylesheet" /> -->
 </head>
@@ -28,7 +35,7 @@
       name: '',
       repo: '',
       loadSidebar : true,
-      subMaxLevel : 1,
+      subMaxLevel : 2,
       loadNavbar : true
     }
   </script>
@@ -43,6 +50,46 @@
       overflow: auto !important;
     }
   </style>
+
+  <!--! 主题细节设置 -->
+  <style>
+
+    :root {
+      --base-font-size          : 18px;
+      --theme-color             : rgb(43,183,179);
+      --content-max-width       : 95em;
+      --code-font-size          : calc(var(--font-size-m) * 1.0);
+      /* --code-block-line-height  : var(--base-line-height); */
+      --code-block-padding      : 1.0em 1.0em 1.0em 1.5em;
+
+      --code-inline-background  :  rgb(243, 243, 243);
+      --code-inline-color       :  rgb(233,105,0);
+      --code-inline-padding     : 0.1em 0.4em;
+
+      --heading-h1-font-size    : 36px;
+      --heading-h2-font-size    : 30px;
+      --heading-h3-font-size    : 24px;
+      --heading-h4-font-size    : 20px;
+      --heading-h5-font-size    : 18px;
+      --heading-h6-font-size    : 18px;
+      --heading-h1-font-weight  : 600;
+      --heading-h2-font-weight  : 500;
+
+      --link-color              :rgb(43,183,179);
+      --link-color--hover       :rgb(233,105,0);
+      /* --notice-background       :rgba(0, 158, 123, 0.256); */
+      --notice-tip-background       :rgba(43, 183, 178, 0.057);
+      --notice-tip-border-color     :rgb(43,183,179);
+      --notice-important-background :rgba(241, 128, 0, 0.057);
+      --notice-important-border-color :rgb(233,105,0);
+      --blockquote-padding                : 0.5em;
+      --blockquote-background             : rgba(251, 251, 251, 0.888);
+      --copycode-background: rgb(43,183,179);
+      --copycode-color     : #fff;
+    }
+  </style>
+
+
   <!-- <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-python.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-c.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-cpp.js"></script>
@@ -64,6 +111,7 @@
   <script src="cdnResources/docsify-copy-code.min.js"></script>
   <script src="cdnResources/docsify-katex.js"></script>
   <script src="cdnResources/docsify-sidebar-collapse.min.js"></script>
+  <script src="cdnResources/pagination.min.js"></script>
 
 </body>
 </html>

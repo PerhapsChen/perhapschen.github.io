@@ -4,7 +4,7 @@
 
 In scientific research, especially when it comes to computing and visualisation, we often need to write special code for our scientific tasks. And the parameters need to be adjusted frequently to achieve the results we expect. Therefore, I have written some of the frequently used functional code in a more general form. In the future, this code will increase the efficiency of my work several times over.
 
-# Generic Modules
+## Generic Modules
 
 - **Hydro_Generate**:  Used to generate some test data from scratch
 - **Hydro_Plot**: Used for visualisation, e.g. box plots, trend plots  of multiple subplots, etc.
@@ -15,6 +15,6 @@ In scientific research, especially when it comes to computing and visualisation,
 - **Hydro_AI**: Some machine learning and deep learning related functions
 - ...
 
-# Scientific Modules
+## Scientific Modules
 
 - ...

@@ -78,7 +78,7 @@ body {
     -webkit-font-smoothing: antialiased;
     color: #34495e;
     font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif;
-    font-size: 15px;
+    font-size: 17px;
     letter-spacing: 0;
     margin: 0;
     overflow-x: hidden
@@ -723,8 +723,8 @@ body {
 
 .sidebar ul li a {
     color: #505d6b;
-    font-size: 14px;
-    font-weight: 400;
+    font-size: 16px;
+    font-weight: 500;
     overflow: hidden;
     text-decoration: none;
     text-overflow: ellipsis;
@@ -797,7 +797,7 @@ body {
 
 .markdown-section figure,
 .markdown-section p {
-    margin: 1.2em 0
+    margin: 1.25em 0
 }
 
 .markdown-section ol,
@@ -871,7 +871,7 @@ body {
 }
 
 .markdown-section>:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) code {
-    font-size: .8rem
+    font-size: .9rem
 }
 
 .markdown-section pre {

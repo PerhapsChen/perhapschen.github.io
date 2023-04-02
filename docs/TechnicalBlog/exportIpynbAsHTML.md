@@ -1,7 +1,6 @@
 # Export `.ipynb` as `HTML` file.
 
-## command line 
-
+## Export by command line.
 convert `.ipynb` file as `HTML` file.
 
 ```bash
