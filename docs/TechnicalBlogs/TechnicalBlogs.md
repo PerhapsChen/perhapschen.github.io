@@ -4,7 +4,7 @@
 
 
 
-# Export `.ipynb` as `HTML` file.
+# Notebook to HTML file
 
 **convert `.ipynb` file as `HTML` file.**
 
