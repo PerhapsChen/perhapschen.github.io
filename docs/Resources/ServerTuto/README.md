@@ -406,8 +406,8 @@ df.to_csv('/home/xx-x/foo/bar.csv') # 使用绝对路径
 为使用这些函数， 你需要在你的jupyter的python代码里添加这样几行代码。这可以让`sanctuary`添加到环境变量里面，这样python才能找到他们。
 
 ```python
-import os
-os.path.append('/portal1/dell/GitHub/sanctuary')
+import sys
+sys.path.append('/portal1/dell/GitHub/sanctuary')
 ```
 
 这些代码依赖一些第三方库，在你自己的环境中，你可能需要安装这些库。有些库不是很好装。公共的sanctuary环境已经安装好了这些库，你可以在sanctuary环境中直接调用它们。
