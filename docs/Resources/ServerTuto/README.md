@@ -185,7 +185,7 @@ jupyter-notebook --generate-config
 
 
 
-**9. 复制下面的命令，注意将`XXXXXXXX替换你上面得到的秘钥，8888替换为的自定义的端口号，推荐选择使用13500~20000中间的某个数字。**
+**9. 复制下面的命令，注意将`XXXXXXXX替换你上面得到的秘钥，8888替换为的自定义的端口号，推荐选择使用13500~20000中间的某个数字。然后执行**
 
 ```bash
 echo -e "c.NotebookApp.ip = '*'\nc.NotebookApp.password='XXXXXXXX'\nc.NotebookApp.open_browser = False\nc.NotebookApp.port = 8888\nc.NotebookApp.allow_remote_access = True" >> ~/.jupyter/jupyter_notebook_config.py
