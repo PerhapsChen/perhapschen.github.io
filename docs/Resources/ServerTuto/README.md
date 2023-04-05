@@ -375,13 +375,11 @@ ln -s /portal1/dell/xx-x /home/xx-x/main
 df.to_csv('foo/bar.csv') # 使用相对路径，将数据df导出到foo文件夹中(foo已经存在)，命名为bar.csv
 ```
 
-这里我们使用了相对路径，相对指的是相对该`.ipynb`文件的路径。加入`.ipynb`文件在`/home/xx-x`目录下，则上面的代码等价于
+这里我们使用了相对路径，相对指的是相对该`.ipynb`文件的路径。假如`.ipynb`文件在`/home/xx-x`目录下，则上面的代码等价于
 
 ```python
 df.to_csv('/home/xx-x/foo/bar.csv') # 使用绝对路径
 ```
-
-
 
 
 
@@ -403,13 +401,13 @@ df.to_csv('/home/xx-x/foo/bar.csv') # 使用绝对路径
 
 ### 如何使用`sanctuary`？
 
-`sanctuary`是Advisor冒之前写的一组易用的函数。你可以在`/portal1/dell/Github/sanctuary`里面找到源代码。
+`sanctuary`是Advisor冒之前写的一组易用的函数。你可以在`/portal1/dell/GitHub/sanctuary`里面找到源代码。
 
 为使用这些函数， 你需要在你的jupyter的python代码里添加这样几行代码。这可以让`sanctuary`添加到环境变量里面，这样python才能找到他们。
 
 ```python
 import os
-os.path.append('/portal1/dell/Github/sanctuary')
+os.path.append('/portal1/dell/GitHub/sanctuary')
 ```
 
 这些代码依赖一些第三方库，在你自己的环境中，你可能需要安装这些库。有些库不是很好装。公共的sanctuary环境已经安装好了这些库，你可以在sanctuary环境中直接调用它们。
