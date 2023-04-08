@@ -90,7 +90,7 @@
       --copycode-backgroun            : rgb(43,183,179);
       --copycode-color                : #fff;
 
-      --sidebar-width                 : 16rem;
+      --sidebar-width                 : 20rem;
     }
   </style>
 
@@ -117,6 +117,23 @@
   <script src="cdnResources/docsify-katex.js"></script>
   <!-- <script src="cdnResources/docsify-sidebar-collapse.min.js"></script> -->
   <script src="cdnResources/pagination.min.js"></script>
+
+  <!--! GitTalk -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
+
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
+  <script>
+    const gitalk = new Gitalk({
+      clientID: '3cfe2c31bafae554294a',
+      clientSecret: '8fb68253ec3634a20c80e8aabe778a59669f6d8a',
+      repo: 'PerhapsGitTalk',
+      owner: 'PerhapsChen',
+      admin: ['PerhapsChen'],
+      // facebook-like distraction free mode
+      distractionFreeMode: false
+    })
+  </script>
 
 </body>
 </html>

@@ -1,4 +1,4 @@
-- [课题组服务器攻略](Resources/ServerTuto/)
+- [**课题组服务器攻略**](Resources/ServerTuto/)
 
 <!-- 如果新增文章需要在
 1. 该文件中新增条目
