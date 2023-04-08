@@ -491,3 +491,8 @@ sys.path.append('/portal1/dell/GitHub/sanctuary')
 - Shift + U 然后输入自己的用户名可以查看自己的进程
 - 按 K, 然后输入进程对应PID可以kill掉进程（只能kill自己的）
 - Ctrl + C 退出`top`界面
+
+### 怎么直接下载数据到服务器？
+
+待补充
+
