@@ -132,7 +132,7 @@
       admin: ['PerhapsChen'],
       // facebook-like distraction free mode
       distractionFreeMode: false,
-      id: location.pathname,
+      id: md5(window.location.pathname).toUpperCase(),
       language: 'en',
     })
   </script>
