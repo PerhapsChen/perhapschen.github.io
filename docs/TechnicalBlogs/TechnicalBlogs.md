@@ -24,14 +24,10 @@ In the HTML file, we can modify `jp-code-font-size` to change font size of codes
 
 
 
-# 第二篇
+# VSCode remote-ssh 免密
 
-哈哈
+reference: [配置vscode 远程开发+ 免密登录 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/222452460)
 
 ---
 
 
-
-# 第三篇啊
-
-强力
