@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
   <meta http-equiv="Pragma" content="no-cache" />
   <meta http-equiv="Expires" content="0" />
@@ -16,9 +17,8 @@
   <!-- <link rel="stylesheet" media="(prefers-color-scheme: dark)" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css"> -->
   <!-- <link rel="stylesheet" media="(prefers-color-scheme: light)" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css"> -->
 
-  <link rel="stylesheet" media="(prefers-color-scheme: light)" href="cdnResources/theme-simple.css">
-  <script src="cdnResource/docsify-themeable.min.js"></script>
-  <!-- <link rel="stylesheet" href="my.css"> -->
+  <link rel="stylesheet" href="cdnResources/theme-simple.css">
+  <script src="cdnResources/docsify-themeable.min.js"></script>
 
   <!-- ! sidebar collapse style -->
   <!-- <link rel="stylesheet" href="cdnResources/sidebar.min.css" /> -->
@@ -36,10 +36,19 @@
       name: '',
       repo: '',
       loadSidebar : true,
-      subMaxLevel : 2,
+      subMaxLevel : 3,
       loadNavbar : true,
       noCompileLinks: ['html/examples/.*'],
-      // resizeSidebar: true,
+      dark: {
+          background: "#1c2022",
+          toggleBtnBg: "#34495e",
+          textColor: "#b4b4b4"
+      },
+      light: {
+        background: "white",
+        toggleBtnBg: "var(--theme-color)",
+        textColor: "var(--theme-color)"
+      }
     }
   </script>
   <!-- Docsify v4 -->
