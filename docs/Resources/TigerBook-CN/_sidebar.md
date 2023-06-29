@@ -1,4 +1,4 @@
-- [**课题组服务器攻略**](Resources/ServerTuto/)
+- [**计算机图形学虎书**](Resources/TigerBook-CN/TigerBook-CN/)
 
 <!-- 如果新增文章需要在
 1. 该文件中新增条目
