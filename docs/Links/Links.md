@@ -12,6 +12,6 @@
 
 
 ## By Others
-- [Hell Algo](https://www.hello-algo.com/) 算法和数据结构学习
+- [Hello Algo](https://www.hello-algo.com/) 算法和数据结构学习
 
 - [动手学深度学习](https://zh-v2.d2l.ai/)
